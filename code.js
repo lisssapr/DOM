@@ -2,9 +2,9 @@
 
 1
 let input = document.getElementById("input");
-let a = document.getElementById("paragraph");
+let a = document.getElementById("a");
 input.addEventListener("blur", function() {
-    paragraph.textContent += input.value;
+    a.textContent += input.value;
 });
 
 // 2
